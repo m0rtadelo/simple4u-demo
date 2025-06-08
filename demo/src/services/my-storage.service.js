@@ -1,16 +1,8 @@
-import { StorageService } from '../../../../simpl4u/services/storage-service.js';
+import { StorageService } from '../../../simpl4u/services/storage-service.js';
 import { MyRemoteService } from './my-remote.service.js';
 
 export class MyStorageService {
-  static type = 'remote';
-
-  static get key() {
-    return StorageService.key;
-  }
-  
-  static set key(value) {
-    StorageService.key = value;
-  }
+  static type = 'application';
 
   static async saveAppModel(data) {
     const map = {

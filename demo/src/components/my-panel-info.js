@@ -1,6 +1,6 @@
-import { ReactiveElement } from '../../../../simpl4u/core/reactive-element.js';
-import { LanguageService } from '../../../../simpl4u/services/language-service.js';
-import { TextService } from '../../../../simpl4u/services/text-service.js';
+import { ReactiveElement } from '../../../simpl4u/core/reactive-element.js';
+import { LanguageService } from '../../../simpl4u/services/language-service.js';
+import { TextService } from '../../../simpl4u/services/text-service.js';
 
 export class MyPanelInfo extends ReactiveElement {
   template(state) {
