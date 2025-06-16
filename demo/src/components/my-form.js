@@ -27,6 +27,7 @@ export class MyForm extends StaticElement {
               <simpl-input class="col-12 col-md-12 col-lg-9" name="company" context="${this.context}"></simpl-input>
               <simpl-select id="sex" context="${this.context}" required name="sex" items='[{"id":"", "text":""},{"id": "male", "text": "Male"},{"id": "female", "text": "Female"}]'></simpl-select>
               <simpl-switch context="${this.context}" name="alive" id="alive"></simpl-switch>
+              <simpl-combobox required class="col-12 col-md-12 col-lg-9" context="${this.context}" name="country" id="country" items='[{"id":"", "text":""},{"id": "es", "text": "Spain"},{"id": "fr", "text": "France"},{"id": "it", "text": "Italy"}]'></simpl-combobox>
             </div>
           </div>
           <div class="col-4">
