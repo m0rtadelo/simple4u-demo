@@ -14,6 +14,7 @@ export class MyPanelInfo extends ReactiveElement {
         <div><small><b>${LanguageService.i18n('company')}</b>: ${TextService.sanitize(state.company || '')}</small></div>
         <div><small><b>${LanguageService.i18n('sex')}</b>: ${LanguageService.i18n(state.sex || '')}</small></div>
         <div><small><b>${LanguageService.i18n('alive')}</b>: ${LanguageService.i18n(state.alive || 'false')}</small></div>
+        <div><small><b>${LanguageService.i18n('country')}</b>: ${LanguageService.i18n(state.country || '')}</small></div>
       </div>
     </div>
         `;
