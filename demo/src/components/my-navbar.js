@@ -16,7 +16,8 @@ export class MyNavBar extends StaticElement {
       { id: 'todo', name: 'todo' },
       { id: 'form1', name: 'form1' },
       { id: 'form2', name: 'form2' },
-      { id: 'services', name: 'services' }
+      { id: 'services', name: 'services' },
+      { id: 'snake', name: 'snake' },
     ];
   }
 }

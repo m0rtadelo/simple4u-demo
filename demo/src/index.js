@@ -7,4 +7,5 @@ import { MyServices } from './components/my-services.js';
 import { MyContacts } from './components/my-contacts.js';
 import { MyTodo } from './components/my-todo.js';
 import { MyTodoForm } from './components/my-todo-form.js';
+import { MySnake } from './components/my-snake.js';
 // import { MyTodoPanels } from './components/my-todo-panels.js';

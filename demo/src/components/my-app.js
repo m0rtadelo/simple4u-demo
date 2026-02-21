@@ -38,6 +38,7 @@ export class MyApp extends StaticElement {
         ${ v === 'services' ? '<my-services></my-services>' : '' }
         ${ v === 'crud' ? '<my-contacts></my-contacts>' : '' }
         ${ v === 'todo' ? '<my-todo></my-todo>' : '' }
+        ${ v === 'snake' ? '<my-snake context="snake"></my-snake>' : ''}
       </div>
     </div>
     <simpl-spinner></simpl-spinner>
