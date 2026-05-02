@@ -1,4 +1,4 @@
-import { StaticElement } from '../../../simpl4u/core/static-element.js';
+import { StaticElement } from '../../../../simpl4u/core/static-element.js';
 
 export class MyNavBar extends StaticElement {
   
@@ -16,8 +16,7 @@ export class MyNavBar extends StaticElement {
       { id: 'todo', name: 'todo' },
       { id: 'form1', name: 'form1' },
       { id: 'form2', name: 'form2' },
-      { id: 'services', name: 'services' },
-      { id: 'snake', name: 'snake' },
+      { id: 'services', name: 'services' }
     ];
   }
 }
