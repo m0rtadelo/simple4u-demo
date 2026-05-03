@@ -1,11 +1,11 @@
-import { StaticElement } from '../../../../simpl4u/core/static-element.js';
-import { ReactiveElement } from '../../../../simpl4u/core/reactive-element.js';
-import { ModalService } from '../../../../simpl4u/services/modal-service.js';
-import { ToastService } from '../../../../simpl4u/services/toast-service.js';
-import { FileService } from '../../../../simpl4u/services/file-service.js';
-import { SimplModel } from '../../../../simpl4u/models/simpl-model.js';
-import { Config } from '../../../../simpl4u/services/config-service.js';
-import { SpinnerService } from '../../../../simpl4u/services/spinner-service.js';
+import { StaticElement } from '../../../simpl4u/core/static-element.js';
+import { ReactiveElement } from '../../../simpl4u/core/reactive-element.js';
+import { ModalService } from '../../../simpl4u/services/modal-service.js';
+import { ToastService } from '../../../simpl4u/services/toast-service.js';
+import { FileService } from '../../../simpl4u/services/file-service.js';
+import { SimplModel } from '../../../simpl4u/models/simpl-model.js';
+import { Config } from '../../../simpl4u/services/config-service.js';
+import { SpinnerService } from '../../../simpl4u/services/spinner-service.js';
 
 class MyButton extends ReactiveElement {
   template(state) {

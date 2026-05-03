@@ -1,4 +1,4 @@
-import { ReactiveElement } from '../../../../simpl4u/core/reactive-element.js';
+import { ReactiveElement } from '../../../simpl4u/core/reactive-element.js';
 
 class Snake {
   static movement = 2;
